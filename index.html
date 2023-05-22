@@ -8,12 +8,22 @@
     <title>Big Tiny Tales</title>
     <!-- add stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+        // JavaScript function to generate the email address
+        function generateEmail() {
+            var user = 'contact';
+            var domain = 'bigtinytales.com';
+            var element = document.getElementById('email');
+            element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+        }
+    </script>
 </head>
 
 <style>
     img {
         max-width: 100%;
-        max-height: 40em;
+        max-height: 35em;
         /* margin-top: -6em; */
     }
 
@@ -22,6 +32,14 @@
         font-size: 14px;
         color: #888;
         text-align: center;
+
+        margin-bottom: 2em;
+
+    }
+
+    a {
+        /* color: blueviolet; */
+        color: #c794f7;
     }
 
     @media (max-width: 480px) {
@@ -36,10 +54,11 @@
         img {
             height: auto;
         }
+
     }
 </style>
 
-<body>
+<body onload="generateEmail()">
     <!-- <h1>Big Tiny Tales</h1> -->
 
     <div class="nav">
@@ -66,11 +85,36 @@
             <br>with a touch of grace and humor.
         </p> -->
         <a href="" class="getstarted">Coming soon</a>
+        <div style="text-align: center; margin: 3em 0 0 0;">
+            <p><b>Contact us 📫</b> </p>
+            <p style="margin-top:  0.51em;" id="email">Loading...</p>
+
+        </div>
+        <br>
+        <span>
+            
+            <!-- 📫 -->
+        </span>
+        <!-- <h3></h3>
+        <p id="email">Loading...</p> -->
+    </div>
+
+    <div>
+        <!-- <h1>Contact us</h1>
+        <p>If you have any questions, please feel free to email us at:</p>
+        <p id="email">Loading...</p> -->
     </div>
 
 
     <footer>
+        <!-- <p>If you have any questions, please feel free to email us at:</p>
+        <p id="email">Loading...</p> -->
+        <!-- <p><b>Contact us ✉️ </b> </p>
+        <p id="email">Loading...</p> -->
+        <br>
         &copy; <span id="year"></span> SDG Production
+        <!-- Contact us ✉️ 📪     -->
+        <!-- <p id="email">Loading...</p> -->
     </footer>
 
     <script>
