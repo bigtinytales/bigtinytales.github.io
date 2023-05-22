@@ -1,1 +1,1 @@
-wwww.bigtinytales.com
+bigtinytales.com
