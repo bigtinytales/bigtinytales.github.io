@@ -80,7 +80,8 @@ body{
     /* height: 55vh; */
     flex-direction:column ;
     width: 100%;
-    margin-bottom: 8em;
+    /* margin-bottom: 8em; */
+    margin-top: 2em;
 }
 .content-welcome h1{
     /* font-size: 70px; */
