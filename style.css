@@ -4,6 +4,7 @@
 }
 body{
     background: #000;
+    background: #953fee;
     font-family: 'Netflix Sans', sans-serif;
     color: white;
 }
@@ -52,7 +53,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 75vh;
+    height: 155vh;
     /* background: url(BTT_L02.png) no-repeat 50% 50%; */
     background-size: cover;
     z-index: -1;
@@ -104,6 +105,7 @@ body{
     background-color: #381552;
     margin-top: 10px;
     border-radius: 5px;
+    border: solid 0.1px #b588b570;
 
 }
 .content-welcome2{
