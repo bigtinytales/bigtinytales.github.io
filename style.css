@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    font-family: 'Netflix Sans', sans-serif;
+    color: white;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    justify-content: space-between;
+    transition: .6s ease-in-out;
+
+}
+.nav.active{
+    background: #000;
+    transition: .6s ease-in-out;
+    height: 80px;
+
+}
+.nav .logo{
+    margin-left: 50px;
+
+}
+.nav .logo img{
+    width: 150px;
+
+}
+.btn-signin{
+    margin-right: 50px;
+
+}
+.btn-signin a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #381552;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+.welcome-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    /* background: url(BTT_L02.png) no-repeat 50% 50%; */
+    background-size: cover;
+    z-index: -1;
+}
+.welcome-bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+.content-welcome{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 55vh; */
+    flex-direction:column ;
+    width: 100%;
+}
+.content-welcome h1{
+    font-size: 70px;
+
+}
+.content-welcome h3{
+    font: 30px;
+    /* font-weight400: ; */
+    margin-top: 20px;
+}
+.p-uni{
+    margin: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.getstarted{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #381552;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.content-welcome2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.section{
+    display: flex;
+    width: 100%;
+    border-top: 7px solid #222222;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.section .txt{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0px 50px;
+
+}
+.section .txt h1{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.section .txt p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.section img{
+    margin: 0px 50px;
+
+}
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
