@@ -182,3 +182,16 @@ body{
 .tiktok-link{
     padding: 2px;
 }
+
+.AboutUs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.AboutParagraph{
+    padding: 20px;
+}
