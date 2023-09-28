@@ -160,27 +160,27 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 15em;
 }
 
 .insta-link{
-    padding: 5px;
+    padding: 5em;
 }
 
 .fb-link{
-    padding: 5px;
+    padding: 5em;
 }
 
 .yt-link{
-    padding: 5px;
+    padding: 5em;
 }
 
 .x-link{
-    padding: 5px;
+    padding: 5em;
 }
 
 .tiktok-link{
-    padding: 5px;
+    padding: 5em;
 }
 
 .AboutUs{
@@ -189,9 +189,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 100em;
+    padding-right: 100em;
 }
 .AboutParagraph{
-    padding: 20px;
+    padding: 20em;
 }
