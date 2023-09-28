@@ -160,25 +160,35 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding-top: 15em;
+    padding-top: 1em;
 }
 
 .insta-link{
-    padding: 5em;
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
 }
 
 .fb-link{
-    padding: 5em;
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
 }
 
 .yt-link{
-    padding: 5em;
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
 }
 
 .x-link{
-    padding: 5em;
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
 }
 
 .tiktok-link{
-    padding: 5em;
+    width: 38.4px;
+    height: 38.4px;
+    padding: .7em;
 }
