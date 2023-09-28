@@ -153,3 +153,32 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15em;
+}
+
+.insta-link{
+    padding: 5em;
+}
+
+.fb-link{
+    padding: 5em;
+}
+
+.yt-link{
+    padding: 5em;
+}
+
+.x-link{
+    padding: 5em;
+}
+
+.tiktok-link{
+    padding: 5em;
+}
