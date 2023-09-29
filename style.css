@@ -159,7 +159,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 20em;
     padding-top: 1em;
 }
 
